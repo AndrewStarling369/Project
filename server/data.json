@@ -1,0 +1,54 @@
+{
+    "products":[
+        {
+          "productId": 1,
+          "productName": "Compact Tractors",
+          "productCode": "GDN-0011",
+          "releaseDate": "March 19, 2019",
+          "description": "Ideal for those DIY projects around the farm, our compact tractors will be a treasured addition for anyone who works the land.",
+          "price": 15999.99,
+          "starRating": 3.2,
+          "imageUrl": "assets/images/pic1.png"
+        },
+        {
+          "productId": 2,
+          "productName": "Utility Tractors",
+          "productCode": "GDN-0023",
+          "releaseDate": "March 18, 2019",
+          "description": "From working livestock to snow removal, and everything in between, our utility tractors bring the horsepower and versatility you need.",
+          "price": 25999.99,
+          "starRating": 4.2,
+          "imageUrl": "assets/images/pic2.png"
+        },
+        {
+          "productId": 5,
+          "productName": "Row Crop Tractors",
+          "productCode": "TBX-0048",
+          "releaseDate": "May 21, 2019",
+          "description": "Our extended lineup of row crop tractors are powerful, efficient, and versatile with horsepower options ranging from 145 to 410.",
+          "price": 45999.99,
+          "starRating": 4.5,
+          "imageUrl": "assets/images/pic3.png"
+        },
+        {
+          "productId": 8,
+          "productName": "4WD/Track Tractors",
+          "productCode": "TBX-0022",
+          "releaseDate": "May 15, 2019",
+          "description": "No matter your terrain or conditions, these tractors were built for pulling heavier, wider implements with ease for those toughest jobs. ",
+          "price": 89999.99,
+          "starRating": 5,
+          "imageUrl": "assets/images/pic4.png"
+        },
+        {
+          "productId": 10,
+          "productName": "Specialty Tractors",
+          "productCode": "GMG-0042",
+          "releaseDate": "October 15, 2018",
+          "description": "From orchards to vineyards to fields requiring high clearance, our complete lineup of specialty tractors will protect your fruit and vegetable crops.",
+          "price": 10999.99,
+          "starRating": 4.6,
+          "imageUrl": "assets/images/pic5.png"
+        }
+      ]
+}
