@@ -1,0 +1,52 @@
+.loader{
+    width: 5em;
+    height: 5em;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 6rem;
+}
+
+.pathLoader{
+    fill: none;
+    stroke: #367c2b;
+    stroke-width: 3px;
+    stroke-linecap: round;
+}
+
+/* .pathLoader{
+    stroke-dasharray: 10, 10;
+} */
+
+@keyframes rotate{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.circularLoader{
+    animation: rotate 2s linear infinite;
+}
+
+@keyframes animate-stroke{
+    0%{
+        stroke-dasharray: 1, 200;
+        stroke-dashoffset: 0;
+        stroke: #367c2b
+    }
+    50%{
+        stroke-dasharray: 89, 200;
+        stroke-dashoffset: -35;
+        stroke: #fdda01;
+    }
+    100%{
+        stroke-dasharray: 89, 200;
+        stroke-dashoffset: -124;
+        stroke: #367c2b;
+    }
+}
+
+.pathLoader{
+    animation: animate-stroke 1.5s ease-in-out infinite;
+}
+
+

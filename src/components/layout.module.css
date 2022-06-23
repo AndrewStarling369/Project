@@ -1,0 +1,186 @@
+
+.containerBody{
+    max-width: 90%;
+    height: auto;
+    background: linear-gradient(to right, #636363, #202020);
+    color: #fff;
+    margin: 0 auto;
+    padding-bottom: 0;
+    margin-bottom: 50px;
+}
+
+
+.layout{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    border-bottom: 1px solid #fff;
+}
+
+.layoutImage{
+    transition: all 0.3s ease-in-out;
+    flex-basis: 0;
+    flex-grow: 3;
+    transition: 0.3s;
+}
+
+.layoutImage:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+.layout img{
+    width: 100%;
+    height: 100%;
+}
+
+.layoutText{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    transition: all 0.3s ease-in-out;
+    font-size: 1.3vw;
+    flex-basis: 0;
+    flex-grow: 2;
+}
+
+.layoutText h3{
+    margin-bottom: 20px;
+}
+
+.layoutButton{
+    text-align: left;
+    margin-top: 24px;
+}
+
+.layoutButton .button{
+    color: #fff;
+    border: solid 2px #fdda01;
+    margin-right: 10px;
+    text-decoration: none;
+    background-color: transparent;
+    padding: 14px 30px;
+    display: inline-block;
+    text-align: center;
+    transition: all .5s ease-out;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.layoutButton .button:hover{
+    background-color: #fdda01;
+}
+
+.containerFooter{
+    max-width: 90%;
+    background-color: #f8f8f8;
+    height: auto;
+    color: linear-gradient(to right, #636363, #202020);
+    margin: 0 auto;
+}
+
+.layout1{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    transition: all 0.3s ease-in-out;
+    font-size: 1.3vw;
+    flex-basis: 0;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.layout2{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    transition: all 0.3s ease-in-out;
+    font-size: 1.3vw;
+    flex-basis: 0;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.layout3{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    transition: all 0.3s ease-in-out;
+    font-size: 1.3vw;
+    flex-basis: 0;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.end{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    transition: all 0.3s ease-in-out;
+    font-size: 1vw;
+    text-align: center;
+}
+
+@media screen and (max-width: 620px) {
+    .containerBody {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .layout {
+        flex-direction: column;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .layoutText {
+        font-size: 15px;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .sectionLayout .layout {
+        flex-direction: column-reverse;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .containerFooter .layout {
+        flex-direction: row;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .layout1 {
+        font-size: 10px;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .layout2 {
+        font-size: 10px;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .layout3 {
+        font-size: 10px;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .end {
+        font-size: 15px;
+    }
+  }

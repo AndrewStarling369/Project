@@ -1,0 +1,132 @@
+.layoutPanel{
+  width: 90%;
+  margin: 50px auto;
+  background-color:	#f8f8f8;
+}
+
+.layoutPanelHeader{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.layoutPanelHeader .title{
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #367c2b;
+}
+
+.layoutPanelHeader .description{
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.breakLine{
+  z-index: 0;
+  position: relative;
+  margin-bottom: 0.625em;
+  margin-top: 1.25em;
+  color: #7f7f7f;
+  text-align: center;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+  margin: 0 auto;
+  width: 50%;
+  font-weight: bold;
+}
+  
+.breakLine .breakLineContent{
+  display: inline-block;
+  padding: 0 0.5em;
+  background-color: #7f7f7f;
+  color: white;
+  }
+  
+.breakLine .breakLineContent::before{
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid #d9d9d9;
+  /* z-index: -1; */
+  }
+
+.image{
+  transition: all 0.3s ease-in-out;
+  flex-basis: 0;
+  flex-grow: 3;
+  transition: 0.3s;
+}
+
+.image:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+.description p{
+  font-size: 1.3vw;
+  padding: 20px;
+}
+
+.logo{
+  background-image: url('./images/logo.png');
+  width: 3em;
+  height: 3em;
+  margin: 0 auto;
+  margin-top: 1rem;
+  background-size:contain;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.container{
+  margin: 0 auto;
+}
+
+.container .searchInputContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.container .searchInputContainer input{
+  width: 50%;
+  padding: 10px;
+  outline: none;
+}
+
+.container{
+  width: 90%;
+  margin: 50px auto;
+}
+
+.containerContentFlow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+  gap: 1px;
+}
+
+@media screen and (max-width: 620px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .description p {
+      font-size: 15px;
+  }
+}
+
+

@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.card{
+  width: 25%;
+  background: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 50px;
+  transition: 0.3s;
+  box-sizing: border-box;
+}
+
+.cardHeader{
+  text-align: center;
+  padding: 50px 10px;
+  background: linear-gradient(to right, #636363, #202020);
+  color: #fff;
+}
+
+.cardHeader .productName{
+  font-size: 25px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.cardBody{
+  padding: 10px 25px;
+  text-align: center;
+  font-size: 18px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cardBody .productDescription{
+  text-align: left;
+  text-rendering: optimizeLegibility;
+  text-overflow: clip;
+  overflow: hidden;
+  word-wrap: break-word;
+  word-break: break-all;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.cardBody .productPrice{
+  text-align: left;
+  margin-top: 5px;
+}
+
+.cardBody .productImage{
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.cardBody .productImage img{
+  height: auto;
+  max-width: 90%;
+}
+
+.cardBody .productDetails{
+  display: block;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(to right, #636363, #202020);
+  margin-top: 30px;
+  text-decoration: none;
+  padding: 10px 5px;
+  cursor: pointer;
+}
+
+.productDetails:hover{
+  opacity: 0.75;
+}
+
+.cardFooter{
+  display: block;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(to right, #367c2b, #fdda01);
+  margin-top: 30px;
+  text-decoration: none;
+  padding: 10px 5px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 1000px) {
+  .card {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .card {
+    width: 70%;
+  }
+}
+
